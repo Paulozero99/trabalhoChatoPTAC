@@ -1,13 +1,7 @@
 import { useState } from "react"
 
 export default function App() {
-    const [ideias, setIdeias] = useState(
-            [
-                {id: 1, texto: "Algo coisa chata", feita: false},
-                {id: 2, texto: "Algo coisa legal", feita: true},
-                {id: 3, texto: "Algo coisa", feita: true}
-            ]
-        )
+    const [ideias, setIdeias] = useState([])
     const [novaIdeia,setNovaIdeia] = useState("")
     const [erro, setErro] = useState("")
 
